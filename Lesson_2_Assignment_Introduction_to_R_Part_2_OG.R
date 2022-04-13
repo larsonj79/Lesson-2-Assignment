@@ -45,9 +45,8 @@ Majors$Gender <- factor(Majors$Gender)
 # than Student 2's major.
 
 
-
 #8. Use the *summary()* function to get a summary report of all three variables in the 
-# Majors data frame.
+# Majors data frame. Save the summary as summMaj.
 
 
 #9. We want to look only at marketing students. Use the *subset()* function to create 
@@ -56,7 +55,7 @@ Majors$Gender <- factor(Majors$Gender)
 # (https://campus.datacamp.com/courses/free-introduction-to-r/chapter-5-data-frames?ex=10)
 
 
-#10. Print the mean age of marketing students.
+#10. Calculate the mean age of marketing students and save it as agemark.
 
 
 #11. We will now create a data frame called 'strategy' that contains only the strategy 
@@ -67,7 +66,7 @@ Majors$Gender <- factor(Majors$Gender)
 #12. Second, use stratYN to create the 'strategy' data frame.
 
 
-#13. Print the mean age of strategy students.
+#13. Calculate the mean age of strategy students and save it as agestrat.
 
 
 #14. We will now create a data frame called 'entrepreneurship' that contains only the 
@@ -76,22 +75,30 @@ Majors$Gender <- factor(Majors$Gender)
 # square brackets. 
 
 
-#15. Print the mean age of entrepreneurship students.
+#15. Calculate the mean age of entrepreneurship students and save it as ageent.
 
 
-#16. Print the mean age of human resources students. (You may do this any method you choose, 
-# but you will receive extra credit if you can do it in only one line of code without using the 
-# *subset()* function.)
+#16. Calculate the mean age of human resources students and save it as agehrm. (You may 
+# do this any method you choose, but challenge yourself to complete this in only one 
+# line of code without using the *subset()* function.)
 
 
-#17. Print the mean age of global supply chain students (using any method you wish).
+#17. Calculate the mean age of global supply chain students and save it as agegscm
+# (using any method you wish).
 
 
 #18. Create a list called 'MajorList' containing these three data frames in this order: 
-#marketing, strategy, and entrepreneurship.
+# marketing, strategy, and entrepreneurship.
 
 
-#19. Using MajorList, print to the screen the Age and Gender of the third student in the
-# marketing major. (HINT: You can follow a double bracket with a single bracket. Use the double 
-# bracket to the choose the marketing data frame and then the single bracket to choose the row 
-# and columns.)
+#19. Using MajorList, save the Age and Gender of the third student in the marketing major
+# as agegenmark3. (agegenmark3 should be a vector of length 2. HINT: You can follow a 
+# double bracket with a single bracket. Use the double bracket to the choose the marketing 
+# data frame and then the single bracket to choose the row and columns.)
+
+
+# Once you have completed the assignment, download this file to your computer. Check the box
+# next to this file ("Lesson_1_Assignment_Introduction_to_R_Part_1.R") then click "More" in
+# the bottom right window. Select "Export...". Once the file is downloaded to your computer,
+# upload it to the proper location in GradeScope. Do not change the name of the file or 
+# GradeScope will return an error.
