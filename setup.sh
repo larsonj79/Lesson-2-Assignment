@@ -8,4 +8,4 @@ apt-get install -y r-base
 # 1. the student code 
 # 2. the autograding code
 Rscript -e "install.packages('gradeR')" 
-Rscript -e "install.packages('stringr')" 
+Rscript -e "install.packages('readxl')" 

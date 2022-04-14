@@ -8,9 +8,13 @@
 
 
 # We will be working with the Majors dataset. It should be visible in the Global Environment
-# to the right. If it is not, do the following: Click on 'Import Dataset' and select 
-# 'From Excel...'. Click the Browse button and select majors.xlsx. You should now see 
-# Majors listed in the Global Environment under Data.
+# to the right. If it is not, run the three lines of code below to read in the data
+# and format it as a data frame.
+
+# Do not change these three lines or GradeScope will not work
+library(readxl)
+Majors <- read_excel("Majors.xlsx")
+Majors <- data.frame(Majors)
 
 #1. Print the Majors data frame to the screen. (R is case sensitive.)
 
